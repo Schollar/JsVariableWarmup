@@ -22,7 +22,7 @@ var weather = "snowing";
 
 if (temperature >= 20 && weather === "sunny") {
     console.log("I will go outside and Tan!");
-} else if (temperature < 0 && temperature > -20 && weather === "snowing") {
+} else if (temperature < 0 && temperature >= -20 && weather === "snowing") {
     console.log("I am going skiing!");
 } else {
     console.log("I will just stay inside and read a book");
